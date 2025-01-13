@@ -1,5 +1,6 @@
 function increment(n) {
-  return n++;
+  let num = n+1;
+  return num;
 }
 
 module.exports = { increment };
